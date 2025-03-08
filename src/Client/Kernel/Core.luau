@@ -7,12 +7,15 @@
 local Core = {}
 
 function Core.CreateController <name> (
-    name: string & name
+    name: string & name,
+    reference: {
+    }
 ): {
     Name: string & name
 }
 
     if type(name) ~= "string" then
+        error(`[{script.Name}]: Name must be a string`, 1)
     end
 
     local controller = {

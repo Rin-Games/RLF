@@ -8,6 +8,6 @@ local Core = require("../Core")
 
 --[TestController]--
 
-local TestController = Core.CreateController()
+local TestController = Core.CreateController("TestController")
 
 return TestController

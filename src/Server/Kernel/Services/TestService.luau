@@ -8,6 +8,6 @@ local Core = require("../Core")
 
 --[TestService]--
 
-local TestService = Core.CreateService()
+local TestService = Core.CreateService("TestService")
 
 return TestService
