@@ -1,3 +1,13 @@
 {
-    
+    "name": "RLF",
+    "tree": {
+
+        "$className": "DataModel",
+
+        "Server": {
+            "$className": "ServerScriptService",
+            "$ignoreUnknownInstances": true,
+            "$path": "src/Server"
+        }
+    }
 }
