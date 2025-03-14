@@ -2,23 +2,17 @@
 [Rin Games Copyright]
 --]]
 
---[]--
-
-local Types = require("Types")
-
 --[Core]--
 
 local Core = {}
 
-function Core.CreateService(name: string)
+function Core.CreateParralel()
 
 
 
 end
 
-function Core.CreateClass(name: string)
-
-
+function Core.Start()
 
 end
 
